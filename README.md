@@ -2,13 +2,7 @@
 
 
 ## Getting Started
-    Give an example
-
-### Prerequisites
-
-Requirements for the software and other tools to build, test and push 
-- [Example 1](https://www.example.com)
-- [Example 2](https://www.example.com)
+    npm run dev
 
 ### Installing
 
