@@ -37,6 +37,8 @@ How to Setup Prisma ORM in Next.js App Directory
       created_at DateTime @default(now())
       updated_at DateTime @updatedAt
     }
+#### 5.Defind Model
+     npx prisma migrate dev --name init
 ## Running the tests
     npm run dev
 
