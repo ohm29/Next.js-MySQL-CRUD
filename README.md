@@ -1,5 +1,5 @@
 # Next.js Prisma Mysql
-How to Setup Prisma ORM in Next.js 13 App Directory
+How to Setup Prisma ORM in Next.js App Directory
 
 ## Installation
 ###  Setup the Next.js Project
