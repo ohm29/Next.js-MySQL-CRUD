@@ -72,7 +72,5 @@ How to Setup Prisma ORM in Next.js App Directory
     npm run dev
 
 ## Built With
-
 * [![Next][Next.js]][Next-url]
 * [![React][React.js]][React-url]
-* [![Prisma][Prisma]][Prisma-url]
