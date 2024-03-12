@@ -6,7 +6,13 @@ How to Setup Prisma ORM in Next.js App Directory
     
     npx create-next-app@latest
 
-![image](https://github.com/ohm29/NextJS-Prisma-MySQL/assets/42561667/170d82c3-885b-4cdb-be3b-df9e4c58e77a)
+    √ What is your project named? ... my-app
+    √ Would you like to use TypeScript? ...  Yes
+    √ Would you like to use ESLint? ... Yes
+    √ Would you like to use Tailwind CSS? ... Yes
+    √ Would you like to use `src/` directory? ... No 
+    √ Would you like to use App Router? (recommended) ...  Yes
+    √ Would you like to customize the default import alias (@/*)? ... No 
 
 ###  Setup Prisma ORM
 #### 1.Install package 
