@@ -17,6 +17,26 @@ How to Setup Prisma ORM in Next.js App Directory
 #### Config database
 ##### .env
     DATABASE_URL="mysql://root:@localhost:3306/mydb"
+
+#### Defind Model
+##### prisma/schema.prisma    
+    generator client {
+      provider = "prisma-client-js"
+    }
+    
+    datasource db {
+      provider = "mysql"
+      url      = env("DATABASE_URL")
+    }
+    
+    model User {
+      user_id    Int      @id @default(autoincrement())
+      name       String
+      email      String   @unique
+      role       String
+      created_at DateTime @default(now())
+      updated_at DateTime @updatedAt
+    }
 ## Running the tests
     npm run dev
 
