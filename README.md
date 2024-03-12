@@ -6,7 +6,7 @@ How to Setup Prisma ORM in Next.js App Directory
     
     npx create-next-app@latest
 
-
+#
     √ What is your project named? ... my-app
     √ Would you like to use TypeScript? ...  Yes
     √ Would you like to use ESLint? ... Yes
