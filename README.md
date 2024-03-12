@@ -56,10 +56,17 @@ How to Setup Prisma ORM in Next.js App Directory
     export const prisma = globalForPrisma.prisma ?? new PrismaClient();
     
     if (process.env.NODE_ENV !== "production") globalForPrisma.prisma = prisma;
-## Running the tests
-### How to use
-#### create  api folder in app folder and add d
-    
-    
+## How to use
+### Create  api folder in app folder and add db.ts
+    import { prisma } from "@/lib/db";
+    export async function GET() {
+        const users = await prisma.User.findMany();
+        return Response.json({
+            data: users,
+            error: 0,
+            message: "read data successfully"
+        })
+    }
+### Test and running
     npm run dev
 
