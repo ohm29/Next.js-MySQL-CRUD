@@ -8,8 +8,9 @@ How to Setup Prisma ORM in Next.js App Directory
 
 ![image](https://github.com/ohm29/NextJS-Prisma-MySQL/assets/42561667/170d82c3-885b-4cdb-be3b-df9e4c58e77a)
 
-###  Setup the Next.js Project
-    https://laragon.org/docs/install.html
+###  Install Laragon Mysql Database
+- [Example 2](https://www.example.com)
+  
 ## Running the tests
     npm run dev
 
