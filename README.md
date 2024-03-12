@@ -6,7 +6,7 @@ How to Setup Prisma ORM in Next.js App Directory
     
     npx create-next-app@latest
 
-    ![image](https://github.com/ohm29/NextJS-Prisma-MySQL/assets/42561667/12a25fe9-095c-4fa9-9178-80ae3ac8fb98)
+![image](https://github.com/ohm29/NextJS-Prisma-MySQL/assets/42561667/170d82c3-885b-4cdb-be3b-df9e4c58e77a)
 
 ## Running the tests
     npm run dev
