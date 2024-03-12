@@ -1,4 +1,4 @@
-![image](https://github.com/ohm29/NextJS-Prisma-MySQL/assets/42561667/6e978d78-2010-4ccb-8c6e-b02777007cea)# Next.js Prisma Mysql
+# Next.js Prisma Mysql
 How to Setup Prisma ORM in Next.js App Directory
 
 ## Installation
