@@ -104,9 +104,8 @@ How to Setup Prisma ORM in Next.js App Directory
 
 #### Update users
 
-```http
+
   PUT /api/users/
-```
 
 | Parameter | Type     | Description                       |
 | :-------- | :------- | :-------------------------------- |
